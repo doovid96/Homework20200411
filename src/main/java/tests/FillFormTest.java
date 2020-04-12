@@ -34,8 +34,6 @@ public class FillFormTest extends SuperTestClass {
 			.enterContinentMultiple(continent)
 			.enterCommand(command);
 		
-		try {Thread.sleep(10000L);} catch (InterruptedException e) {e.printStackTrace();}
-		
 	}
 	
 }
